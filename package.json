@@ -1,0 +1,45 @@
+{
+  "name": "css-isolate",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "description": "Isolate CSS declaration differences between 2 files/strings within the context of their rules in order to produce a set of overrides",
+  "homepage": "http://github.com/webxl/css-isolate",
+  "bugs": "https://github.com/webxl/css-isolate/issues",
+  "author": {
+    "name": "Matt Motherway",
+    "email": "mm@webxl.net",
+    "url": "http://webxl.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webxl/css-isolate"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "isolate",
+    "css",
+    "compare",
+    "diff"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "cssIsolate": "cli.js"
+  },
+  "preferGlobal": "true",
+  "dependencies": {
+    "css": "~2.0.0"
+  }
+}
