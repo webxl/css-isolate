@@ -1,6 +1,6 @@
 {
   "name": "css-isolate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "description": "Isolate CSS declaration differences between 2 files/strings within the context of their rules in order to produce a set of overrides",
   "homepage": "http://github.com/webxl/css-isolate",
@@ -36,9 +36,8 @@
     "test": "grunt"
   },
   "bin": {
-    "cssIsolate": "cli.js"
+    "cssIsolate": "./cli.js"
   },
-  "preferGlobal": "true",
   "dependencies": {
     "css": "~2.0.0"
   }
