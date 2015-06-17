@@ -1,6 +1,6 @@
 {
   "name": "css-isolate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index.js",
   "description": "Isolate CSS declaration differences between 2 files/strings within the context of their rules in order to produce a set of overrides",
   "homepage": "http://github.com/webxl/css-isolate",
@@ -15,9 +15,6 @@
     "url": "https://github.com/webxl/css-isolate"
   },
   "license": "MIT",
-  "files": [
-    "lib"
-  ],
   "keywords": [
     "isolate",
     "css",
